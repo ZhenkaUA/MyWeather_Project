@@ -1,0 +1,109 @@
+body {
+  background: radial-gradient(
+    circle at 10% 20%,
+    rgb(107, 157, 171) 23.8%,
+    rgb(92, 122, 158) 66%
+  );
+}
+.card {
+  background: url("../image/weather.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: block;
+  margin: 20px auto;
+  max-width: 800px;
+}
+.city {
+  color: rgb(46, 45, 45);
+  font-size: 26px;
+  font-weight: bold;
+}
+.icon {
+  color: rgb(46, 45, 45);
+  font-size: 26px;
+}
+.search {
+  color: rgb(46, 45, 45);
+  font-size: 24px;
+}
+
+.prec-wind {
+  color: rgba(46, 45, 45, 0.89);
+  font-size: 20px;
+}
+.prec {
+  width: 30px;
+  height: auto;
+}
+.wind {
+  width: 28px;
+  height: auto;
+}
+.day {
+  font-size: 16px;
+  margin: 20px 10px;
+  border-radius: 15px;
+  background-color: rgba(255, 255, 255, 0.158);
+}
+.temp {
+  font-size: 28px;
+  margin: 20px;
+}
+.icon_weather_mon {
+  width: 50px;
+  height: auto;
+  margin: 20px 0.5px;
+}
+.temp_mon {
+  font-size: 34px;
+  vertical-align: middle;
+}
+.day_mon {
+  font-size: 22px;
+  border-radius: 15px;
+  background-color: rgba(255, 255, 255, 0.158);
+}
+.column-5 .col-md-1 {
+  width: 25%;
+  color: white;
+  text-align: center;
+  margin: 13px auto;
+}
+.column-5 .col-md-2,
+.column-5 .col-md-3,
+.column-5 .col-md-4,
+.column-5 .col-md-5,
+.column-5 .col-md-6 {
+  width: 15%;
+  color: rgba(255, 255, 255, 0.678);
+  text-align: center;
+}
+.column-5 {
+  background-color: black;
+  opacity: 60%;
+  margin: 0;
+  padding: 20px 10px;
+}
+.row {
+  padding: 15px 10px;
+}
+
+#searchCity {
+  font-size: 18px;
+}
+#current-Location-Button {
+  padding: 2px 16px;
+  border-width: 0.5px;
+  border-color: rgba(46, 45, 45, 0.89);
+  font-size: 18px;
+  border-radius: 3px;
+  background-color: #efefef;
+}
+#city_mon {
+  font-size: 26px;
+}
+.dateTime {
+  font-size: 18px;
+  color: rgba(46, 45, 45, 0.89);
+  margin: 10px 0 0 0;
+}
