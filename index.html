@@ -19,82 +19,78 @@
 
   <body>
     <div class="container">
-      <div class="card">
-        <div class="card-body">
-          <div class="row">
-            <div class="col-5 city">
-              <form id="searchCity">
-                <input
-                  type="text"
-                  id="city-input"
-                  placeholder="Enter the city"
-                  autocomplete="off"
-                  autofocus="on"
-                />
-                <input type="submit" value="🔎" />
-              </form>
-            </div>
+      <div class="row">
+        <div class="col-5 city">
+          <form id="searchCity">
+            <input
+              type="text"
+              id="city-input"
+              placeholder="Enter the city"
+              autocomplete="off"
+              autofocus="on"
+            />
+            <input type="submit" value="🔎" />
+          </form>
+        </div>
 
-            <div class="col-4 search"></div>
+        <div class="col-4 search"></div>
 
-            <div class="col-3 location">
-              <button id="current-Location-Button">📍 temperature</button>
-              <div class="dateTime"></div>
-            </div>
-          </div>
+        <div class="col-3 location">
+          <button id="current-Location-Button">📍 temperature</button>
+          <div class="dateTime"></div>
+        </div>
+      </div>
 
+      <br />
+
+      <div class="row">
+        <div class="col-12 prec-wind">
+          <div id="weather-description"></div>
+          <div id="humidity"></div>
+          <div id="windy"></div>
+        </div>
+
+        <div class="row column-5">
           <br />
 
-          <div class="row">
-            <div class="col-12 prec-wind">
-              <div id="weather-description"></div>
-              <div id="humidity"></div>
-              <div id="windy"></div>
-            </div>
+          <div class="col-md-1">
+            <span id="city_mon"></span><br /><span
+              class="temp_mon"
+              id="temp_mon"
+              class="units"
+            ></span>
+            <img src="image/sun.png" width="90" class="icon_weather_mon" />
+            <div class="day_mon" id="currentDay">MONDAY 2nd</div>
+          </div>
 
-            <div class="row column-5">
-              <br />
+          <div class="col-md-2">
+            <div class="day">TUE</div>
+            <img src="image/cloud.png" width="50" />
+            <div class="temp">20°</div>
+          </div>
 
-              <div class="col-md-1">
-                <span id="city_mon"></span><br /><span
-                  class="temp_mon"
-                  id="temp_mon"
-                  class="units"
-                ></span>
-                <img src="image/sun.png" width="90" class="icon_weather_mon" />
-                <div class="day_mon" id="currentDay">MONDAY 2nd</div>
-              </div>
+          <div class="col-md-3">
+            <div class="day">WED</div>
+            <img src="image/cloudy.png" width="50" />
+            <div class="temp">19°</div>
+          </div>
 
-              <div class="col-md-2">
-                <div class="day">TUE</div>
-                <img src="image/cloud.png" width="50" />
-                <div class="temp">20°</div>
-              </div>
+          <div class="col-md-4">
+            <div class="day">THU</div>
+            <img src="image/sun.png" width="50" />
+            <div class="temp">18°</div>
+          </div>
 
-              <div class="col-md-3">
-                <div class="day">WED</div>
-                <img src="image/cloudy.png" width="50" />
-                <div class="temp">19°</div>
-              </div>
+          <div class="col-md-5">
+            <div class="day">FRI</div>
+            <img src="image/cloudy_sun.png" width="50" />
+            <div class="temp">21°</div>
+          </div>
 
-              <div class="col-md-4">
-                <div class="day">THU</div>
-                <img src="image/sun.png" width="50" />
-                <div class="temp">18°</div>
-              </div>
-
-              <div class="col-md-5">
-                <div class="day">FRI</div>
-                <img src="image/cloudy_sun.png" width="50" />
-                <div class="temp">21°</div>
-              </div>
-
-              <div class="col-md-6">
-                <div class="day">SAT</div>
-                <img src="image/cloudy_.png" width="50" />
-                <div class="temp">24°</div>
-              </div>
-            </div>
+          <div class="col-md-6">
+            <div class="day">SAT</div>
+            <img src="image/cloudy_.png" width="50" />
+            <div class="temp">24°</div>
           </div>
         </div>
       </div>
