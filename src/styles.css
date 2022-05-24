@@ -35,16 +35,16 @@ body {
   font-size: 28px;
   margin: 20px;
 }
-.icon_weather_mon {
+.icon_weather_search {
   width: 50px;
   height: auto;
   margin: 20px 0.5px;
 }
-.temp_mon {
+.temp_search {
   font-size: 34px;
   vertical-align: middle;
 }
-.day_mon {
+.day_search {
   font-size: 22px;
   border-radius: 15px;
   background-color: rgba(255, 255, 255, 0.158);
@@ -87,7 +87,7 @@ body {
   background-color: #efefef;
   float: right;
 }
-#city_mon {
+#city_search {
   font-size: 26px;
 }
 .time {
