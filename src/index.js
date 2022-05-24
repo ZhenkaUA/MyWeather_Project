@@ -43,16 +43,16 @@ function formatDate(date) {
 formatDate(currentTime);
 
 function displayWeatherCondition(response) {
-  document.querySelector("#city_mon").innerHTML = response.data.name;
-  let tempMon = document.querySelector("#temp_mon");
-  let tempM = Math.round(response.data.main.temp);
-  tempMon.innerHTML = `${tempM}℃`;
+  document.querySelector("#city_search").innerHTML = response.data.name;
+  let tempSearch = document.querySelector("#temp_search");
+  let tempS = Math.round(response.data.main.temp);
+  tempSearch.innerHTML = `${tempS}℃`;
   document.querySelector("#weather-description").innerHTML =
     response.data.weather[0].description;
 
-  let humMon = document.querySelector("#humidity");
-  let humM = response.data.main.humidity;
-  humMon.innerHTML = `Humidity: ${humM}%`;
+  let humSearch = document.querySelector("#humidity");
+  let humS = response.data.main.humidity;
+  humSearch.innerHTML = `Humidity: ${humS}%`;
 }
 
 function searchCity(city) {
