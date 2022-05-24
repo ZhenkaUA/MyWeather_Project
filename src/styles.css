@@ -18,28 +18,13 @@ body {
   color: rgb(46, 45, 45);
   font-size: 26px;
   font-weight: bold;
+  padding-left: 5px;
 }
 .icon {
   color: rgb(46, 45, 45);
   font-size: 26px;
 }
-.search {
-  color: rgb(46, 45, 45);
-  font-size: 24px;
-}
 
-.prec-wind {
-  color: rgba(46, 45, 45, 0.89);
-  font-size: 20px;
-}
-.prec {
-  width: 30px;
-  height: auto;
-}
-.wind {
-  width: 28px;
-  height: auto;
-}
 .day {
   font-size: 16px;
   margin: 20px 10px;
@@ -82,29 +67,36 @@ body {
 .column-5 {
   background-color: black;
   opacity: 60%;
-  margin: 0;
-  padding: 20px 10px;
+  margin: 0 auto;
+  border-radius: 8px;
 }
 .row {
-  padding: 15px 10px;
+  padding: 20px 20px;
 }
 
 #searchCity {
   font-size: 18px;
+  float: left;
 }
 #current-Location-Button {
-  padding: 2px 16px;
+  padding: 2px 18px;
   border-width: 0.5px;
   border-color: rgba(46, 45, 45, 0.89);
   font-size: 18px;
   border-radius: 3px;
   background-color: #efefef;
+  float: right;
 }
 #city_mon {
   font-size: 26px;
 }
-.dateTime {
+.time {
   font-size: 18px;
   color: rgba(46, 45, 45, 0.89);
   margin: 10px 0 0 0;
+  float: right;
+}
+.col-12 {
+  font-size: 18px;
+  padding: 0 20px 10px 20px;
 }

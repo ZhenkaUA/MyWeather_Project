@@ -1,7 +1,6 @@
-//Time
 let now = new Date();
 function formatTime(currentTime) {
-  let time = document.querySelector("div.dateTime");
+  let time = document.querySelector("div.time");
 
   let hours = now.getHours();
   if (hours < 10) {
@@ -15,7 +14,6 @@ function formatTime(currentTime) {
 }
 formatTime(now);
 
-//Date
 let currentTime = new Date();
 function formatDate(date) {
   let nowDay = document.querySelector("#currentDay");
@@ -44,7 +42,6 @@ function formatDate(date) {
 }
 formatDate(currentTime);
 
-//display weather
 function displayWeatherCondition(response) {
   document.querySelector("#city_mon").innerHTML = response.data.name;
   let tempMon = document.querySelector("#temp_mon");
