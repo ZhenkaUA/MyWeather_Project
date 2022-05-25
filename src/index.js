@@ -53,6 +53,10 @@ function displayWeatherCondition(response) {
   let humSearch = document.querySelector("#humidity");
   let humS = response.data.main.humidity;
   humSearch.innerHTML = `Humidity: ${humS}%`;
+
+  let windSearch = document.querySelector("#wind");
+  let windS = Math.round(response.data.wind.speed);
+  windSearch.innerHTML = `Wind: ${windS}km/h`;
 }
 
 function searchCity(city) {
