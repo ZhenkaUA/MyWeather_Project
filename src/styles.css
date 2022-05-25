@@ -10,9 +10,14 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   display: block;
-  margin: 30px auto;
+  margin-top: 30px;
   max-width: 800px;
   border-radius: 8px;
+}
+.footer {
+  display: block;
+  margin: 0 auto;
+  max-width: 800px;
 }
 .city {
   color: rgb(46, 45, 45);
