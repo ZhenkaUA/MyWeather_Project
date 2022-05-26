@@ -49,8 +49,13 @@ body {
   font-size: 34px;
   vertical-align: middle;
 }
+.units {
+  font-size: 14px;
+  position: relative;
+  top: -6px;
+}
 .day_search {
-  font-size: 22px;
+  font-size: 20px;
   border-radius: 15px;
   background-color: rgba(255, 255, 255, 0.158);
 }
@@ -107,4 +112,15 @@ body {
 }
 #weather-description {
   text-transform: capitalize;
+}
+.active {
+  color: #c5d0db;
+  cursor: default;
+  text-decoration: none;
+}
+.active:hover {
+  text-decoration: none;
+}
+.fahrenheit-link {
+  text-decoration: none;
 }
