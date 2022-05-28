@@ -87,11 +87,15 @@ body {
 #current-Location-Button {
   padding: 2px 18px;
   border-width: 0.5px;
-  border-color: rgba(46, 45, 45, 0.89);
+  border-color: rgba(134, 133, 133, 0.89);
   font-size: 18px;
   border-radius: 3px;
   background-color: #efefef;
   float: right;
+}
+#current-Location-Button:hover {
+  border-color: rgba(53, 52, 52, 0.89);
+  background-color: #e4e4e4d7;
 }
 #city_search {
   font-size: 26px;
@@ -115,5 +119,13 @@ body {
   text-decoration: none;
 }
 .active:hover {
+  text-decoration: none;
+}
+.units a {
+  text-decoration: none;
+}
+.units a:hover {
+  color: #c5d0db;
+  cursor: default;
   text-decoration: none;
 }
