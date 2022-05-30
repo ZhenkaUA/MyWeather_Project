@@ -13,6 +13,7 @@ body {
   margin-top: 30px;
   max-width: 800px;
   border-radius: 8px;
+  padding: 20px 20px;
 }
 .footer {
   display: block;
@@ -50,34 +51,23 @@ body {
   position: relative;
   top: -6px;
 }
-.day_search {
-  font-size: 20px;
-  border-radius: 15px;
-  background-color: rgba(255, 255, 255, 0.158);
-}
-.column-5 .col-md-1 {
-  width: 25%;
-  color: white;
-  text-align: center;
-  margin-top: 10px;
-}
-.column-5 .col-md-2,
-.column-5 .col-md-3,
-.column-5 .col-md-4,
-.column-5 .col-md-5,
-.column-5 .col-md-6 {
-  width: 15%;
+
+.column-4 .col-md-2,
+.column-4 .col-md-3,
+.column-4 .col-md-4,
+.column-4 .col-md-5 {
+  width: 20%;
   color: rgba(255, 255, 255, 0.678);
   text-align: center;
 }
-.column-5 {
+.column-4 {
   background-color: black;
   opacity: 0.6;
   margin: 0 auto;
   border-radius: 8px;
 }
 .row {
-  padding: 20px 20px;
+  --bs-gutter-x: 0rem;
 }
 
 #searchCity {
@@ -92,24 +82,20 @@ body {
   border-radius: 3px;
   background-color: #efefef;
   float: right;
+  color: rgba(46, 45, 45, 0.89);
 }
 #current-Location-Button:hover {
   border-color: rgba(53, 52, 52, 0.89);
   background-color: #e4e4e4d7;
 }
-#city_search {
-  font-size: 26px;
-}
+
 .time {
   font-size: 18px;
   color: rgba(46, 45, 45, 0.89);
   margin: 10px 0 0 0;
   float: right;
 }
-.col-12 {
-  font-size: 18px;
-  padding: 10px 5px;
-}
+
 #weather-description {
   text-transform: capitalize;
 }
@@ -128,4 +114,12 @@ body {
   color: #c5d0db;
   cursor: default;
   text-decoration: none;
+}
+.col-8 {
+  text-align: right;
+  padding-right: 5px;
+  padding-top: 40px;
+}
+.col-4 {
+  padding-left: 5px;
 }

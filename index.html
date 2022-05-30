@@ -46,58 +46,25 @@
       <br />
 
       <div class="row">
-        <div class="col-12">
+        <div class="col-4" id="currentTemperature">
+          <span id="city_search"></span>
+          <br />
+          <span class="temp_search" id="temp_search"></span>
+          <span class="units"
+            ><a href="#" id="celsius-link" class="active">℃</a> |
+            <a href="#" id="fahrenheit-link">℉</a></span
+          >
+
+          <img src="" alt="" class="icon_weather_search" id="icon" />
+          <div class="day_search" id="currentDay"></div>
+        </div>
+        <div class="col-8">
           <div id="weather-description"></div>
           <div id="humidity"></div>
           <div id="wind"></div>
         </div>
 
-        <div class="row column-5">
-          <br />
-
-          <div class="col-md-1">
-            <span id="city_search"></span>
-            <br />
-            <span class="temp_search" id="temp_search"></span>
-            <span class="units"
-              ><a href="#" id="celsius-link" class="active">℃</a> |
-              <a href="#" id="fahrenheit-link">℉</a></span
-            >
-
-            <img src="" alt="" class="icon_weather_search" id="icon" />
-            <div class="day_search" id="currentDay"></div>
-          </div>
-
-          <div class="col-md-2">
-            <div class="day">TUE</div>
-            <img src="image/cloud.png" width="50" />
-            <div class="temp">20°</div>
-          </div>
-
-          <div class="col-md-3">
-            <div class="day">WED</div>
-            <img src="image/rain.png" width="50" />
-            <div class="temp">19°</div>
-          </div>
-
-          <div class="col-md-4">
-            <div class="day">THU</div>
-            <img src="image/sun.png" width="50" />
-            <div class="temp">18°</div>
-          </div>
-
-          <div class="col-md-5">
-            <div class="day">FRI</div>
-            <img src="image/cloudy_sun.png" width="50" />
-            <div class="temp">21°</div>
-          </div>
-
-          <div class="col-md-6">
-            <div class="day">SAT</div>
-            <img src="image/cloudy_.png" width="50" />
-            <div class="temp">24°</div>
-          </div>
-        </div>
+        <div class="row column-4" id="forecast"></div>
       </div>
     </div>
     <div class="footer">

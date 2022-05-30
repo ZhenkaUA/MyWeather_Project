@@ -42,6 +42,21 @@ function formatDate(date) {
 }
 formatDate(currentTime);
 
+function displayForecast() {
+  let forecastElement = document.querySelector("#forecast");
+  let forecastHTML = `<div class="row">`;
+  let days = ["TUE", "WED", "THU", "FRI", "SAT"];
+  days.forEach(function (day) {
+    forecastHTML =
+      forecastHTML +
+      `<div class="col-md-2"><div class="day">${day}</div>
+            <img src="image/cloud.png" width="50" />
+            <div class="temp">20°</div></div>`;
+  });
+  forecastHTML = forecastHTML + `</div>`;
+  forecastElement.innerHTML = forecastHTML;
+}
+
 function displayWeatherCondition(response) {
   document.querySelector("#city_search").innerHTML = response.data.name;
   celsiusTemperature = response.data.main.temp;
@@ -109,6 +124,8 @@ function displayCelsiusTemperature(event) {
 }
 
 let celsiusTemperature = null;
+
+displayForecast();
 
 let searchForm = document.querySelector("#searchCity");
 searchForm.addEventListener("submit", handleSubmit);
