@@ -46,22 +46,24 @@
       <br />
 
       <div class="row">
-        <div class="col-6" id="currentTemperature">
-          <span id="city_search"></span>
-          <br />
+        <div class="col-4" id="currentTemperature">
           <span class="temp_search" id="temp_search"></span>
           <span class="units"
             ><a href="#" id="celsius-link" class="active">℃</a> |
             <a href="#" id="fahrenheit-link">℉</a></span
           >
-
           <img src="" alt="" class="icon_weather_search" id="icon" />
-          <span class="day_search" id="currentDay"></span>
         </div>
-        <div class="col-6 description">
+
+        <div class="col-4 description">
           <div id="weather-description"></div>
           <div id="humidity"></div>
           <div id="wind"></div>
+        </div>
+
+        <div class="col-4 cityDay">
+          <div id="city_search"></div>
+          <div class="day_search" id="currentDay"></div>
         </div>
 
         <div class="row column-4" id="forecast"></div>
